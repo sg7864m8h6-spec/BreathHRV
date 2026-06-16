@@ -6,8 +6,38 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		03B10A702FE08CB900A78C00 /* BreathHRPOC Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 03B10A6F2FE08CB900A78C00 /* BreathHRPOC Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03B10A712FE08CB900A78C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B10A492FE08C1F00A78C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B10A6E2FE08CB900A78C00;
+			remoteInfo = "BreathHRPOC Watch App Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03B10A7D2FE08CC000A78C00 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				03B10A702FE08CB900A78C00 /* BreathHRPOC Watch App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		03B10A512FE08C1F00A78C00 /* BreathHRPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathHRPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B10A632FE08CA800A78C00 /* BreathHRPOC Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BreathHRPOC Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B10A6F2FE08CB900A78C00 /* BreathHRPOC Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BreathHRPOC Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +46,34 @@
 			path = BreathHRPOC;
 			sourceTree = "<group>";
 		};
+		03B10A642FE08CA800A78C00 /* BreathHRPOC Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BreathHRPOC Watch App";
+			sourceTree = "<group>";
+		};
+		03B10A732FE08CB900A78C00 /* BreathHRPOC Watch App Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BreathHRPOC Watch App Watch App";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		03B10A4E2FE08C1F00A78C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B10A602FE08CA800A78C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B10A6C2FE08CB900A78C00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				03B10A532FE08C1F00A78C00 /* BreathHRPOC */,
+				03B10A642FE08CA800A78C00 /* BreathHRPOC Watch App */,
+				03B10A732FE08CB900A78C00 /* BreathHRPOC Watch App Watch App */,
 				03B10A522FE08C1F00A78C00 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				03B10A512FE08C1F00A78C00 /* BreathHRPOC.app */,
+				03B10A632FE08CA800A78C00 /* BreathHRPOC Watch App.app */,
+				03B10A6F2FE08CB900A78C00 /* BreathHRPOC Watch App Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +128,52 @@
 			productReference = 03B10A512FE08C1F00A78C00 /* BreathHRPOC.app */;
 			productType = "com.apple.product-type.application";
 		};
+		03B10A622FE08CA800A78C00 /* BreathHRPOC Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B10A7E2FE08CC000A78C00 /* Build configuration list for PBXNativeTarget "BreathHRPOC Watch App" */;
+			buildPhases = (
+				03B10A5F2FE08CA800A78C00 /* Sources */,
+				03B10A602FE08CA800A78C00 /* Frameworks */,
+				03B10A612FE08CA800A78C00 /* Resources */,
+				03B10A7D2FE08CC000A78C00 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B10A722FE08CB900A78C00 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				03B10A642FE08CA800A78C00 /* BreathHRPOC Watch App */,
+			);
+			name = "BreathHRPOC Watch App";
+			packageProductDependencies = (
+			);
+			productName = "BreathHRPOC Watch App";
+			productReference = 03B10A632FE08CA800A78C00 /* BreathHRPOC Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03B10A6E2FE08CB900A78C00 /* BreathHRPOC Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B10A7A2FE08CC000A78C00 /* Build configuration list for PBXNativeTarget "BreathHRPOC Watch App Watch App" */;
+			buildPhases = (
+				03B10A6B2FE08CB900A78C00 /* Sources */,
+				03B10A6C2FE08CB900A78C00 /* Frameworks */,
+				03B10A6D2FE08CB900A78C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				03B10A732FE08CB900A78C00 /* BreathHRPOC Watch App Watch App */,
+			);
+			name = "BreathHRPOC Watch App Watch App";
+			packageProductDependencies = (
+			);
+			productName = "BreathHRPOC Watch App Watch App";
+			productReference = 03B10A6F2FE08CB900A78C00 /* BreathHRPOC Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -81,6 +185,12 @@
 				LastUpgradeCheck = 2650;
 				TargetAttributes = {
 					03B10A502FE08C1F00A78C00 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					03B10A622FE08CA800A78C00 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					03B10A6E2FE08CB900A78C00 = {
 						CreatedOnToolsVersion = 26.5;
 					};
 				};
@@ -100,12 +210,28 @@
 			projectRoot = "";
 			targets = (
 				03B10A502FE08C1F00A78C00 /* BreathHRPOC */,
+				03B10A622FE08CA800A78C00 /* BreathHRPOC Watch App */,
+				03B10A6E2FE08CB900A78C00 /* BreathHRPOC Watch App Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		03B10A4F2FE08C1F00A78C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B10A612FE08CA800A78C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B10A6D2FE08CB900A78C00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +248,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03B10A5F2FE08CA800A78C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B10A6B2FE08CB900A78C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03B10A722FE08CB900A78C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B10A6E2FE08CB900A78C00 /* BreathHRPOC Watch App Watch App */;
+			targetProxy = 03B10A712FE08CB900A78C00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		03B10A5A2FE08C2200A78C00 /* Debug */ = {
@@ -249,8 +397,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BreathHRPOC/BreathHRPOC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8BXG84WRG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -263,7 +413,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = peter.BreathHRPOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterjoyce247.BreathHRPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -280,8 +430,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BreathHRPOC/BreathHRPOC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8BXG84WRG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +446,147 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = peter.BreathHRPOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterjoyce247.BreathHRPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03B10A7B2FE08CC000A78C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BreathHRPOC Watch App Watch App/BreathHRPOC Watch App Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8BXG84WRG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BreathHRPOC Watch App";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Need heart rate access to test breathing response.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Need workout access to collect heart rate during the session.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.peterjoyce247.BreathHRPOC;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterjoyce247.BreathHRPOC.watchapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		03B10A7C2FE08CC000A78C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BreathHRPOC Watch App Watch App/BreathHRPOC Watch App Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8BXG84WRG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BreathHRPOC Watch App";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Need heart rate access to test breathing response.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Need workout access to collect heart rate during the session.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.peterjoyce247.BreathHRPOC;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterjoyce247.BreathHRPOC.watchapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		03B10A7F2FE08CC000A78C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BreathHRPOC Watch App/BreathHRPOC Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8BXG84WRG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BreathHRPOC Watch App";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterjoyce247.BreathHRPOC.watchapp.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03B10A802FE08CC000A78C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BreathHRPOC Watch App/BreathHRPOC Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8BXG84WRG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BreathHRPOC Watch App";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterjoyce247.BreathHRPOC.watchapp.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -323,6 +615,24 @@
 			buildConfigurations = (
 				03B10A5D2FE08C2200A78C00 /* Debug */,
 				03B10A5E2FE08C2200A78C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B10A7A2FE08CC000A78C00 /* Build configuration list for PBXNativeTarget "BreathHRPOC Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B10A7B2FE08CC000A78C00 /* Debug */,
+				03B10A7C2FE08CC000A78C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B10A7E2FE08CC000A78C00 /* Build configuration list for PBXNativeTarget "BreathHRPOC Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B10A7F2FE08CC000A78C00 /* Debug */,
+				03B10A802FE08CC000A78C00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
